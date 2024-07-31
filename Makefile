@@ -4,4 +4,4 @@ all: compiler.cpp
 	g++ -o ${outputName} compiler.cpp
 
 clean:
-	rm compiler
+	rm -rf ./test compiler
